@@ -1,25 +1,46 @@
 body {
-    background-color: #333333; /* Dark gray color */
-    color: #dfd13c; /* Gold text color for contrast */
+    background-color: #2f2f2f;
+    color: #dfd13c;
     margin: 0;
     padding: 0;
-    font-family: 'Your Font Name', Amoresa; /* Specify your desired font */
+    font-family: 'Your Font Name', Amoresa;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .title-box {
-    background-image: url('path/to/your/image.jpg'); /* Specify the path to your image */
-    background-size: cover; /* Cover the entire box with the background image */
-    background-position: center; /* Center the background image */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Light gray shadow */
+    background-image: url("dragonfly.JPG");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    text-align: center; /* Center align the text */
+    text-align: center;
+    white-space: nowrap;
 }
 
-
 .title {
-    display: inline-block; /* Make the title box shrink to fit its content */
+    display: inline-block;
 }
 
 .word {
-    font-size: 62px; /* Adjust the font size as needed */
+    font-size: 8vw;
 }
+
+.about-section {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.main-content {
+    text-align: center; /* Center text horizontally within .main-content */
+    margin-top: 50px; /* Optional: Adjust the top margin as needed */
+}
+
+.about-section h2 {
+    font-size: 1.5em; /* Adjust as needed */
+}
+
+.about-section p {
+    font-size: 1.2em; /* Adjust as needed */
+}
+
