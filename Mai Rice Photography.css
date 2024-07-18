@@ -1,3 +1,5 @@
+/* General styles */
+
 body {
     background-color: #2f2f2f;
     color: #dfd13c;
@@ -5,7 +7,12 @@ body {
     padding: 0;
     font-family: 'Your Font Name', Amoresa;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    overflow-x: hidden; /* Prevent horizontal scrolling on smaller screens */
 }
+
+
+/* Title box styles */
+
 
 .title-box {
     background-image: url("dragonfly.JPG");
@@ -15,6 +22,7 @@ body {
     padding: 20px;
     text-align: center;
     white-space: nowrap;
+    margin-bottom: 15px; /* Adjust margin bottom to create space for the nav bar */
 }
 
 .title {
@@ -23,6 +31,69 @@ body {
 
 .word {
     font-size: 8vw;
+}
+
+/* Header styles */
+
+header {
+    background-color: rgb(182, 175, 244);
+    text-align: center;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2); /* add shadow to the header */
+    padding: 6px 0;
+}
+
+/* Navigation styles */
+
+header nav {
+    margin-top: 10px;  /* Adjust margin top to move the navigation bar down */
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #dfd13c; /* Choose a color that contrasts well with your header background */
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+header nav ul li a:hover {
+    color: #ffffff; /* Change color on hover */
+}
+
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+    .word {
+        font-size: 5vw; /* Adjust title font size for smaller screens */
+    }
+
+    header {
+        padding: 15px 0; /* Increase padding for better touch interaction */
+    }
+
+    header nav {
+        margin-top: 6px; /* Increase margin top for better spacing */
+    }
+
+    header nav ul li {
+        margin: 0 8px; /* Adjust margin for smaller screens */
+    }
+
+    header nav ul li a {
+        font-size: 16px; /* Decrease font size for smaller screens */
+    }
 }
 
 .about-section {

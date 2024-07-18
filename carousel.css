@@ -1,0 +1,26 @@
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-container {
+    display: grid;
+    place-items: center; /* Center both horizontally and vertically */
+    height: 100vh; /* Adjust as needed to center vertically */
+}
+
+.carousel-slide {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    transition: opacity 0.5s ease;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Additional styling for controls, indicators, etc. */
