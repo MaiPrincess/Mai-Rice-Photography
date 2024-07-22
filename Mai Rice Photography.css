@@ -1,3 +1,4 @@
+
 /* General styles */
 
 body {
@@ -60,7 +61,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #dfd13c; /* Choose a color that contrasts well with your header background */
+    color: #dfd13c; /* color that contrasts well with my header background */
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;

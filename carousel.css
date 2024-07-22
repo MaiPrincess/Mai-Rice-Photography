@@ -1,26 +1,20 @@
-.carousel {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+/* carousel.css */
+
+.carousel-inner {
+    height: 400px; /* Adjust height as needed */
 }
 
-.carousel-container {
-    display: grid;
-    place-items: center; /* Center both horizontally and vertically */
-    height: 100vh; /* Adjust as needed to center vertically */
+.carousel-inner .item {
+    transition: opacity 0.5s ease; /* Example: Custom transition */
 }
 
-.carousel-slide {
-    display: none;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    transition: opacity 0.5s ease;
+.carousel-inner img {
+    max-width: 100%; /* Ensure images fit within carousel */
+    height: auto; /* Maintain aspect ratio */
 }
 
-.carousel-slide img {
-    width: 100%;
-    height: auto;
+/* Example: Custom controls styling */
+.carousel-control {
+    /* Your styles for carousel controls */
 }
 
-/* Additional styling for controls, indicators, etc. */
