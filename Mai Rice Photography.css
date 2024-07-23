@@ -16,7 +16,7 @@ body {
 
 
 .title-box {
-    background-image: url("dragonfly.JPG");
+    background-image: url("Gallery Pictures/dragonfly.jpg");
     background-size: cover;
     background-position: center;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
@@ -69,6 +69,44 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
+    color: #ffffff; /* Change color on hover */
+}
+
+
+/* Footer styles */
+
+footer {
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
+    align-items: center; /* Centers the items vertically */
+    background-color: #333; /* Example background color */
+    padding: 20px 0; /* Adjust padding as needed */
+}
+
+footer nav {
+    margin-top: 75px;  /* Adjust margin top to create space above the footer navigation */
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+footer nav ul li {
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #dfd13c; /* Color that contrasts well with the footer background */
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+footer nav ul li a:hover {
     color: #ffffff; /* Change color on hover */
 }
 

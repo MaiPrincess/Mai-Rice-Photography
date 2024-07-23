@@ -21,3 +21,16 @@ document.querySelector('.next').addEventListener('click', () => {
 document.querySelector('.prev').addEventListener('click', () => {
     showSlide(currentSlide - 1);
 });
+
+
+// script.js
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute('href'));
+        target.scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
