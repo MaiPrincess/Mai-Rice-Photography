@@ -81,11 +81,11 @@ footer {
     justify-content: center; /* Centers the items horizontally */
     align-items: center; /* Centers the items vertically */
     background-color: #333; /* Example background color */
-    padding: 20px 0; /* Adjust padding as needed */
+    padding: 10px 0; /* Adjust padding as needed */
 }
 
 footer nav {
-    margin-top: 75px;  /* Adjust margin top to create space above the footer navigation */
+    margin-top: 5px;  /* Adjust margin top to create space above the footer navigation */
 }
 
 footer nav ul {
