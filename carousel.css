@@ -1,20 +1,21 @@
 /* carousel.css */
 
 .carousel-inner {
-    height: 400px; /* Adjust height as needed */
+    height: 300px; /* Adjust height as needed */
+    line-height: 1.25; /* Adjust as needed */
 }
 
 .carousel-inner .item {
+    height: 300px; /* Match the height of the carousel */
     transition: opacity 0.5s ease; /* Example: Custom transition */
 }
 
 .carousel-inner img {
     max-width: 100%; /* Ensure images fit within carousel */
-    height: auto; /* Maintain aspect ratio */
+    height: 100%; /* Maintain aspect ratio */
 }
 
 /* Example: Custom controls styling */
 .carousel-control {
     /* Your styles for carousel controls */
 }
-

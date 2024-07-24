@@ -1,0 +1,22 @@
+/* Ensure the main container is centered */
+.main-container {
+    width: 100%; /* Adjust as per your layout */
+    max-width: 1200px; /* Example maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Style for .live-feed section */
+.live-feed {
+    margin-top: 20px; /* Adjust this value to increase or decrease the space */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center the content within .live-feed */
+    max-width: 100%; /* Ensure it doesn't exceed the container width */
+}
+
+/* Style for h2 inside .live-feed */
+.live-feed h2 {
+    margin-top: 20px; /* Adjust this value as needed */
+    font-size: 24px; /* Example font size */
+    color: #dfd13c; /* Example text color */
+    text-align: center; /* Center the title */
+}
