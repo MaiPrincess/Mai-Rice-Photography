@@ -70,26 +70,53 @@
         </div>
 
         <!-- Live Camera Feed Section -->
-        <h2> Cannery RowLive Camera </h2>
-           <div class="iframe-container">
-              <iframe src="//portal.hdontap.com/s/embed?stream=taste-of-monterey_cannery-row-CUST&amp;ratio=16:9&amp;fluid=true" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-           </div>
+        <div class="live-feed">
+            <h2> Cannery RowLive Camera </h2>
+            <div class="iframe-container">
+                <iframe width="280" height="157.5" src="//portal.hdontap.com/s/embed?stream=taste-of-monterey_cannery-row-CUST&amp;ratio=16:9&amp;fluid=true" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+            </div>
+        </div>
+
+        <div class="live-feed">
+            <h2> Live Monterey Bay Cam </h2>
+            <div class="iframe-container">
+                <iframe width="280" height="157.5" src="https://www.youtube-nocookie.com/embed/we3tKZxUIDw?si=9QKZs-jv5kWx9dUm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="live-feed">
+            <h2> Monterey Bay Aquarium Otters </h2>
+            <div class="iframe-container">
+                <iframe width="280" height="157.5" src="https://www.youtube.com/embed/WrKZzs-CB_8?si=EgAbqZ595aAPVeYa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Map Section -->
+        <div id="map"></div>
+
     </section>
 
     <footer id="Contact"> <!-- Added Id="Contact" to the footer -->
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="mailto:TheresaRice@WHATSitTOya.gov">Email</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="mailto:TheresaRice@WHATSitTOya.gov">Email</a></li>
             </ul>
         </nav>
     </footer>
-    
 
     <!-- Include jQuery and Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Google Maps JavaScript API -->
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAi-kuuaCYjoK224mWDXCvTcY81CZK7anM&callback=initMap">
+    </script>
+
+    <!-- Include your custom JavaScript -->
+    <script src="Monterey cords.js"></script>
 </body>
 </html>

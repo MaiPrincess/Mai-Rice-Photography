@@ -1,19 +1,23 @@
 /* carousel.css */
 
-.carousel-inner {
-    height: 300px; /* Adjust height as needed */
-    line-height: 1.25; /* Adjust as needed */
-    margin-bottom: 20px; /*Add bottom margin as needed */
+/* Adjusted for specific width and height */
+
+#myCarousel {
+    width: 560px !important; /* Set specific width */
+    height: 315px !important; /* Set specific height */
+    margin: 0 auto; /* Center the carousel horizontally */
 }
 
 .carousel-inner .item {
-    height: 300px; /* Match the height of the carousel */
+    height: 315px; /* Match the height of the carousel */
     transition: opacity 0.5s ease; /* Example: Custom transition */
 }
 
 .carousel-inner img {
-    max-width: 100%; /* Ensure images fit within carousel */
-    height: 100%; /* Maintain aspect ratio */
+    width: 100%; /* Ensure images fill the carousel width */
+    height: 100%; /* Ensure images fill the carousel height */
+    object-fit: cover; /* Maintain aspect ratio and cover entire slide */
+    max-height: 100%; /* Added to ensure images don't overflow */
 }
 
 /* Example: Custom controls styling */
