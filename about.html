@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Mai Rice Photography</title>
     <link rel="stylesheet" href="Mai_Rice_Photography.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="button.css">
 </head>
 <body>
     <div class="title-box">
@@ -24,22 +26,56 @@
         </nav>
     </header>
     
-
     <div class="about-section">
         <h2>About Me</h2>
-        <p>Welcome to Mai Rice Photography, where we capture the most precious moments in life with passion.</p>
+        <p>Welcome to Mai Rice Photography, 
+            where we capture the most precious moments in life
+            with passion.
+        </p>
     </div>
 
+    <!-- Container for live feeds and Google Map -->
+    <div class="live-feed-container">
+        <div class="live-feed">
+            <div class="header">
+                <h2>Live Monterey Bay Cam</h2>
+            </div>
+            <div class="iframe-container">
+                <iframe src="https://www.youtube-nocookie.com/embed/we3tKZxUIDw?si=9QKZs-jv5kWx9dUm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
 
-<footer id="Contact"> <!-- Added Id="Contact" to the footer -->
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
+        <div class="google-map">
+            <div class="header">
+                <h2>Google Map</h2>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.4109277237387!2d-122.42509138468074!3d37.77492927975957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085815f4f6d35e5%3A0x4b5e1deacb5b38f!2sGoogleplex!5e0!3m2!1sen!2sus!4v1617898817698!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="live-feed">
+            <div class="header">
+                <h2>Monterey Bay Aquarium Otters</h2>
+            </div>
+            <div class="iframe-container">
+                <iframe src="https://www.youtube.com/embed/WrKZzs-CB_8?si=EgAbqZ595aAPVeYa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer id="Contact">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="mailto:TheresaRice@WHATSitTOya.gov">Email</a></li>
-        </ul>
-    </nav>
-</footer>
+            </ul>
+        </nav>
+    </footer>
+
+    <button id="back-to-top" class="generate-back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script src="button.js"></script>
 </body>
 </html>

@@ -1,0 +1,42 @@
+/* about.css */
+
+/* Ensure the live feed container is a flex container */
+.live-feed-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap if there's not enough space */
+    gap: 20px; /* Add spacing between elements */
+    padding: 20px; /* Add padding around the container */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    justify-content: space-around; /* Distribute space evenly around items */
+    width: 100%; /* Container width adjusts to fit items */
+}
+
+/* Ensure each live feed and Google Map has consistent styling */
+.live-feed, .google-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    background-color: #2f2f2f; /* Set background color to grey */
+    border: 2px solid #2f2f2f; /* Add border around each item */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Header styling */
+.header {
+    width: 100%; /* Ensure header spans the full width */
+    text-align: center; /* Center the heading text */
+    padding: 10px 0; /* Add padding around the heading */
+}
+
+/* Specific size for live feeds and Google Map */
+.live-feed, .google-map {
+    width: 280px;
+    height: 157.5px;
+}
+
+/* Ensure the iframes inside live feeds and map are sized correctly */
+.iframe-container iframe, .google-map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0; /* Remove border if needed */
+}

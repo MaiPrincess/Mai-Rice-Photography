@@ -1,11 +1,12 @@
 /* carousel.css */
 
 /* Adjusted for specific width and height */
-
 #myCarousel {
-    width: 560px !important; /* Set specific width */
-    height: 315px !important; /* Set specific height */
+    width: 560px; /* Set specific width */
+    height: 315px; /* Set specific height */
     margin: 0 auto; /* Center the carousel horizontally */
+    position: relative; /* Ensure positioning context for child elements */
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
 }
 
 .carousel-inner .item {

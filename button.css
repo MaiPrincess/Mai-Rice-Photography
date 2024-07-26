@@ -1,0 +1,28 @@
+/* Add these styles to your CSS file */
+
+.generate-back-to-top {
+    background-color: rgba(0, 0, 0, 0.4); /* Dark semi-transparent background */
+    color: #dfd13c; /* Gold text color */
+    font-size: 20px;
+    border-radius: 3px; /* Rounded corners */
+    position: fixed;
+    bottom: 30px; /* Position from the bottom */
+    right: 30px; /* Position from the right */
+    line-height: 40px; /* Center the text vertically */
+    width: 40px; /* Button width */
+    height: 40px; /* Button height (optional) */
+    text-align: center; /* Center the text horizontally */
+    z-index: 10; /* Ensure it stays on top of other elements */
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out; /* Smooth transitions */
+    opacity: 0.1; /* Initial opacity */
+    transform: translateY(1000px); /* Start off-screen */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: none; /* Remove default border */
+    outline: none; /* Remove default outline */
+}
+
+.generate-back-to-top:hover {
+    background-color: rgba(0, 0, 0, 0.6); /* Darker background on hover */
+    opacity: 1; /* Full opacity on hover */
+    transform: translateY(0); /* Slide into view */
+}

@@ -17,22 +17,31 @@ body {
 
 
 .title-box {
-    background-image: url("Gallery_Pictures/dragonfly.jpg");
+    background-image: url("Gallery Pictures/dragonfly.jpg");
     background-size: cover;
     background-position: center;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
-    padding: 40px; /* adjust padding as needed */
+    padding: 100px 160px 250px; /* adjust padding as needed */
     text-align: center;
     white-space: nowrap;
     margin-bottom: 15px; /* Adjust margin bottom to create space for the nav bar */
 }
 
 .title {
-    display: inline-block;
+    position: absolute;
+    top: 35px; /* Adjust to move the title up or down */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    color: #dfd13c; /* Contrast color */
 }
+
 
 .word {
     font-size: 8vw; /* Adjust as needed */
+    font-family: 'Amoresa';
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 /* Header styles */
