@@ -9,6 +9,7 @@
     box-sizing: border-box; /* Include padding and border in element's total width and height */
     justify-content: space-around; /* Distribute space evenly around items */
     width: 100%; /* Container width adjusts to fit items */
+    height: 300px; /* Container height adjust to fit items */
 }
 
 /* Ensure each live feed and Google Map has consistent styling */

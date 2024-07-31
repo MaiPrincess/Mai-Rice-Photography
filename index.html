@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="Mai_Rice_Photography.css">
     <!-- Custom Carousel CSS -->
      <link rel="stylesheet" href="carousel.css">
+     <!-- Custom Grid Gallery CSS -->
+     <link rel="stylesheet" href="grid-gallery.css">
 </head>
 <body>
     <!-- Background Image (behind title) -->
@@ -49,18 +51,30 @@
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
             </ol>
             
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="Gallery Pictures/Fire_Sunset.JPG" alt="Fire Sunset">
+                    <img src="Gallery Pictures/cake.JPG" alt="Reverse Cake">
+                </div>
+                <div class="item">
+                    <img src="Gallery Pictures/break_thru_sunset.JPG" alt="Break Thru Sunset">
+                </div>
+                <div class="item">
+                    <img src="Gallery Pictures/Alsike_Clover_Flower.JPG" alt="Alsike Clover Flower">
                 </div>
                 <div class="item">
                     <img src="Gallery Pictures/Pacific_Grove_Sunset.JPG" alt="Pacific Grove Sunset">
                 </div>
                 <div class="item">
-                    <img src="Gallery Pictures/Firework_Fairie.JPG" alt="Firework Fairie">
+                    <img src="Gallery Pictures/Ocean_Spray.JPG" alt="Ocean Spray">
+                </div>
+                <div class="item">
+                    <img src="Gallery Pictures/busy_bees.jpg" alt="Busy Bees">
                 </div>
             </div>
             
@@ -74,6 +88,66 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <div class="grid-gallery">
+            <div class="first-set">
+                <div class="grid-item">
+                    <div class="grid-content">
+                        <h2>Eye Catching Palm & Firesky</h2>
+                        <p>Paragraph of lots of words like yada yada yada blah blah blah, 
+                            okie dokie artichokie so on and so forth i dont know what else 
+                            to put to make up space to see what this will look like lol</p>
+                    </div>
+                    <div class="grid-image">
+                        <img src="Gallery Pictures/Palm_Firesky.jpg" alt="Palm & Firesky">
+                    </div>
+                </div>
+                <!-- Add more items as needed for the first set -->
+            </div>
+            
+            <div class="second-set">
+                <div class="grid-item">
+                    <div class="grid-image">
+                        <img src="Gallery Pictures/Big_Sur_Coastline.JPG" alt="Big Sur Coastline">
+                    </div>
+                    <div class="grid-content">
+                        <h2>Beautiful Big Sur Coastline</h2>
+                        <p>Will be chaning this.  Looking for words and 
+                            funny Im at a loss for them.  not much to say
+                            something something something to take up space for the 
+                            moment.  will you be reading this or just glancing it over?
+                            Make mention if you see this.
+                        </p>
+                    </div>
+                </div>
+                <!-- Add more items as needed for the second set -->
+            </div>
+
+            <div class="third-set">
+                <div class="grid-item">
+                    <div class="grid-image">
+                        <img src="Gallery Pictures/negflowers.JPG" alt="Negative Flower Bouquet">
+                    </div>
+                    <div class="grid-content">
+                        <h2>Negative Flower Bouquet</h2>
+                        <p>I love playing around with editing.  Seeing how strangely beautiful you can Make
+                            your picutres look.  lots of words   many many words
+                            writing something super exciting  watch out now
+                            hold on to your seat  are you ready?
+                            here it comes
+
+
+
+                            I love turtles!
+                        </p>
+                    </div>
+                </div>
+                <!-- Add more items as needed for the second set -->
+            </div>
+        </div>
+        
+    <!-- Add more grid-items as needed -->
+</div>
+
 
         <!-- Live Camera Feed Section -->
         <div class="live-feed">
@@ -83,22 +157,8 @@
             </div>
         </div>
 
-        <div class="live-feed">
-            <h2> Live Monterey Bay Cam </h2>
-            <div class="iframe-container">
-                <iframe width="280" height="157.5" src="https://www.youtube-nocookie.com/embed/we3tKZxUIDw?si=9QKZs-jv5kWx9dUm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
 
-        <div class="live-feed">
-            <h2> Monterey Bay Aquarium Otters </h2>
-            <div class="iframe-container">
-                <iframe width="280" height="157.5" src="https://www.youtube.com/embed/WrKZzs-CB_8?si=EgAbqZ595aAPVeYa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-
-        <!-- Map Section -->
-        <div id="map"></div>
+    
 
     </section>
 
@@ -125,12 +185,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <!-- Google Maps JavaScript API -->
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAi-kuuaCYjoK224mWDXCvTcY81CZK7anM&callback=initMap">
-    </script>
-
-    <!-- Include your custom JavaScript -->
-    <script src="Monterey_cords.js"></script>
+   
 </body>
 </html>

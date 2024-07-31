@@ -1,0 +1,33 @@
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 50px; /* Space between grid items */
+    padding: 40px; /* Padding around the grid container */
+}
+
+/* Ensure spacing between the sets */
+.first-set, .second-set {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px; /* Space between items in each set */
+}
+
+/* Add margin to create space between sets */
+.first-set {
+    margin-bottom: 40px; /* Space between the two sets */
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr; /* Image takes 1 part, content takes 2 parts */
+    gap: 20px; /* Space between image and content within each item */
+    align-items: center; /* Vertically center-align items in the grid */
+    max-width: 498.26px; /* Ensure the container does not exceed the image width */
+}
+
+.grid-image img {
+    width: 498.26px; /* Set the desired width */
+    height: 342.81px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+    border-radius: 5px; /* Optional: for rounded corners */
+}

@@ -2,24 +2,25 @@
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    gap: 10px;
-    padding: 10px;
-    line-height: 1.25;  /* Set line height to 1.25 adjust if needed. */
+    grid-template-columns: repeat(4, 1fr); /* Ensures 4 columns in the grid */
+    gap: 80px;
+    padding: 25px;
+    line-height: 1.5;  /* Set line height to 1.25 adjust if needed. */
 }
 
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-    padding: 10px;
+    gap: 80px; /* Adjust gap size */
+    padding: 20px 50px 10px 50px;
+    margin-top: 30px;
 }
 
 .photo {
-    flex: 0 1 calc(33.33% - 10px); /* Flex-grow, flex-shrink, flex-basis */
+    flex: 0 1 calc(20% - 5px); /* Flex-grow, flex-shrink, flex-basis */
     position: relative;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px; /* Add margin for spacing between rows */
 }
