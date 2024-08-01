@@ -1,5 +1,6 @@
 # Mai-Rice-Photography
 My First Website Project
+
 Welcome to my first website project!! This README file provides an overview of my photography website project, how to set it up, and how to use it.
 
 Table of Contents
