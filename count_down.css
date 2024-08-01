@@ -1,0 +1,110 @@
+#countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    overflow: hidden; /* Ensure content does not overflow outside the container */
+}
+
+h3{
+    color: #b0ceeb; /*change this to desired color */
+    margin-bottom: 20px; /* optional: add spacing below the title */
+}
+
+#event-date {
+    margin-top: 10px;;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #7cbbf7;
+    font-weight: bold;
+}
+
+#timer {
+    display: flex;
+    align-items: center;
+    font-size: 45px; /* Increase font size for countdown numbers */
+    color: #c5e2f3;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    overflow: hidden; /* Ensure content does not overflow */
+}
+
+#timer div {
+    margin: 0 15px;
+    padding: 30px;
+    background-color: none;
+    border: 1px solid none;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 100px;
+    box-sizing: border-box; /* include padding and border in element's total width and height */
+}
+
+/* Media Queries */
+
+/* For tablets and smaller screens (up to 768px wide) */
+@media (max-width: 768px) {
+    #countdown {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    h3 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    #event-date {
+        font-size: 30px;
+    }
+
+    #timer {
+        font-size: 35px;
+    }
+
+    #timer div {
+        margin: 0 10px;
+        padding: 10px;
+        min-width: 80px;
+    }
+
+    .live-feed, .google-map {
+        max-width: 100%; /* Full width for smaller screens */
+    }
+}
+
+/* For mobile phones (up to 480px wide) */
+@media (max-width: 480px) {
+    #countdown {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    #event-date {
+        font-size: 22px;
+    }
+
+    #timer {
+        font-size: 28px;
+        flex-direction: column;
+    }
+
+    #timer div {
+        margin: 5px 0;
+        padding: 15px;
+        min-width: 60px;
+        text-align: center;
+    }
+
+    .live-feed, .google-map {
+        max-width: 100%; /* Full width for smaller screens */
+        height: auto; /* Adjust height automatically based on content */
+    }
+}

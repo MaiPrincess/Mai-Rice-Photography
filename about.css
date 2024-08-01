@@ -1,5 +1,25 @@
 /* about.css */
 
+h2{
+    margin-top: 60px; /* add spacing above title */
+    margin-bottom: 20px; /*  add spacing below the title */
+    
+}
+
+/* Style for paragraphs directly following h2 elements */
+h2 + p {
+    color: #d5d4d4; /* Change this to your desired color */
+    font-size: 16px; /* Adjust font size if needed */
+    line-height: 1.5; /* Adjust line height for readability */
+    margin-top: 0; /* Remove top margin if needed */
+    margin-left: 40px;
+    text-align: center;
+    padding: 80px;
+    margin-right: 40px;
+    margin-bottom: 40px; /* Add spacing below each paragraph */
+}
+
+
 /* Ensure the live feed container is a flex container */
 .live-feed-container {
     display: flex;
@@ -40,4 +60,71 @@
     width: 100%;
     height: 100%;
     border: 0; /* Remove border if needed */
+}
+
+/* Media Queries */
+
+/* For tablets and smaller screens (up to 768px wide) */
+@media (max-width: 768px) {
+    #countdown {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    h3 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    #event-date {
+        font-size: 30px;
+    }
+
+    #timer {
+        font-size: 35px;
+    }
+
+    #timer div {
+        margin: 0 10px;
+        padding: 10px;
+        min-width: 80px;
+    }
+
+    .live-feed, .google-map {
+        max-width: 100%; /* Full width for smaller screens */
+    }
+}
+
+/* For mobile phones (up to 480px wide) */
+@media (max-width: 480px) {
+    #countdown {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    #event-date {
+        font-size: 22px;
+    }
+
+    #timer {
+        font-size: 28px;
+        flex-direction: column;
+    }
+
+    #timer div {
+        margin: 5px 0;
+        padding: 15px;
+        min-width: 60px;
+        text-align: center;
+    }
+
+    .live-feed, .google-map {
+        max-width: 100%; /* Full width for smaller screens */
+        height: auto; /* Adjust height automatically based on content */
+    }
 }

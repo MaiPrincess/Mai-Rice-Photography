@@ -1,8 +1,39 @@
 .grid-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
-    gap: 50px; /* Space between grid items */
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); Responsive grid layout */
+    grid-template-columns: 1fr 1fr;
+    gap: 200px; /* Space between grid items */
     padding: 40px; /* Padding around the grid container */
+    margin-top:150px;
+    margin-bottom:100px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) { /* Adjust this breakpoint as needed */
+    .grid-gallery {
+        grid-template-columns: 1fr; /* Single column layout for small screens */
+        gap: 10px; /* Reduced space between grid items for smaller screens */
+    }
+
+    .word {
+        font-size: 5vw; /* Adjust title font size for smaller screens */
+    }
+
+    header {
+        padding: 15px 0; /* Increase padding for better touch interaction */
+    }
+
+    header nav {
+        margin-top: 6px; /* Increase margin top for better spacing */
+    }
+
+    header nav ul li {
+        margin: 0 8px; /* Adjust margin for smaller screens */
+    }
+
+    header nav ul li a {
+        font-size: 16px; /* Decrease font size for smaller screens */
+    }
 }
 
 /* Ensure spacing between the sets */
@@ -31,3 +62,4 @@
     object-fit: cover; /* Ensure the image covers the container without distortion */
     border-radius: 5px; /* Optional: for rounded corners */
 }
+
