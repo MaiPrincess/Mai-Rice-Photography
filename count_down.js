@@ -1,8 +1,8 @@
 // Array of event dates (relative to each year)
 const eventDates = [
-    "03-01T23:59:59",
-    "07-04T12:00:00",
-    "09-27T23:59:59"
+    "03-01T08:00:00",
+    "07-04T08:00:00",
+    "09-27T08:00:00"
 ];
 
 // Function to get the next event date for the current year
