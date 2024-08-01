@@ -16,9 +16,9 @@ h2 + p {
     text-align: center;
     padding: 80px;
     margin-right: 40px;
-    margin-bottom: 40px; /* Add spacing below each paragraph */
+    margin-bottom: 80px; /* Add spacing below each paragraph */
+    text-indent: 20px; /* Indentation for the first line */
 }
-
 
 /* Ensure the live feed container is a flex container */
 .live-feed-container {
