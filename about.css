@@ -7,17 +7,17 @@ h2{
 }
 
 /* Style for paragraphs directly following h2 elements */
-h2 + p {
+.about-section p {
     color: #d5d4d4; /* Change this to your desired color */
-    font-size: 16px; /* Adjust font size if needed */
+    font-size: 25px; /* Adjust font size if needed */
     line-height: 1.5; /* Adjust line height for readability */
     margin-top: 0; /* Remove top margin if needed */
     margin-left: 40px;
     text-align: center;
-    padding: 80px;
+    padding: .8px;
     margin-right: 40px;
-    margin-bottom: 80px; /* Add spacing below each paragraph */
-    text-indent: 20px; /* Indentation for the first line */
+    margin-bottom: 10px; /* Add spacing below each paragraph */
+    text-indent: 30px; /* Indentation for the first line */
 }
 
 /* Ensure the live feed container is a flex container */
@@ -52,7 +52,7 @@ h2 + p {
 /* Specific size for live feeds and Google Map */
 .live-feed, .google-map {
     width: 280px;
-    height: 157.5px;
+    /* height: 157.5px;  */
 }
 
 /* Ensure the iframes inside live feeds and map are sized correctly */
