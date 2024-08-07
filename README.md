@@ -67,6 +67,10 @@ Usage
 
 To view and interact with the website:
 
+https://maiprincess.github.io/Mai-Rice-Photography/index.html
+
+or
+
 Open index.html in Your Browser:
 
 You can view the website by opening the index.html file directly in a web browser.
