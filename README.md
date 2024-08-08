@@ -1,4 +1,3 @@
-# Mai-Rice-Photography
   # Mai Rice Photography
 ## "My First Website Project"
 
@@ -89,67 +88,63 @@ All changes made in VS Code will be reflected when you refresh the web browser.
 
 
 ##### File Structure
-Here’s an overview of the project’s file structure:
+Here is an overview of the projects file structure:
 
-Mai-Rice-Photography/
+##### Mai-Rice-Photography/
 
-├── index.html                                        # Main HTML file
-├── Gallery.html                                      # Gallery HTML file
-├── about.html                                        # About Me HTML file
+1.  index.html                                        # Main HTML file
+2. gallery.html                                      # Gallery HTML file
+3. about.html                                        # About Me HTML file
 
-├── styles/                                               # Directory for CSS files
-│   └── Mai_Rice_Photography.css           # Main stylesheet
-      └── carousel.css                                # Carousel stylesheet
-         └── live_feed.css                            # Live Feed stylesheet
-            └── button.css                            # Scroll to top button stylesheet
-               └── gallery.css                        # Gallery stylesheet
-                  └── grid-gallery.css                # For the Grid in Gallery stylesheet
-                     └── about.css                    # About Me stylesheet
-                        └── count_down.css            # Count Down Timer stylesheet
+##### styles                                               # Directory for CSS files styles
+- 1. Mai_Rice_Photography.css           # Main stylesheet
+- 2.   carousel.css                                # Carousel stylesheet
+- 3.   live_feed.css                            # Live Feed stylesheet
+- 4.   button.css                            # Scroll to top button stylesheet
+- 5.   gallery.css                        # Gallery stylesheet
+- 6.   grid-gallery.css                # For the Grid in Gallery stylesheet
+- 7.   about.css                    # About Me stylesheet
+- 8.   count_down.css            # Count Down Timer stylesheet
 
-├── scripts/   
-    └── Javascript                                    # Carousel JavaScript file│    
-       └── button.js                                  # Back to top Button JavaScript file
-          └── gallery.js                              # Gallery array loop JavaScript file
-             └── photos.js                            # Photo for Gallery array loop JavaScript file
-                └── count_down.js                     # Count Down Timer JavaScript file
-                   └── Monterey_cords.js              # Monterey Bay Aquarium Map Cords JavaScript file
+##### scripts
+-  1. Javascript                                    # Carousel JavaScript file
+- 2.  button.js                                  # Back to top Button JavaScript file
+- 3.  gallery.js                              # Gallery array loop JavaScript file
+- 4.  photos.js                            # Photo for Gallery array loop JavaScript file
+- 5.  count_down.js                     # Count Down Timer JavaScript file
+- 6.  Monterey_cords.js              # Monterey Bay Aquarium Map Cords JavaScript file
 
-└── images/                                           # Directory for image files
-    └── Gallery Pictures folder holds all JPG         # Gallery Pictures Folder holds all image JPG files
+##### images/                                           # Directory for image files
+ Gallery Pictures folder holds all JPG         # Gallery Pictures Folder holds all image JPG files
 
 
 
 ##### Contributing
 If you’d like to contribute to this project, please follow these steps:
 
-1.  Fork the Repository: Create a copy of the repository under your own GitHub account.
+- 1.  Fork the Repository: Create a copy of the repository under your own GitHub account.
+
+- 2.  Clone Your Fork: Use Git Bash to clone your fork:
+
+- git clone https://github.com/yourusername/your-forked-repository-name.git
+
+- 3.  Create a New Branch:
+
+- git checkout -b your-branch-name
+
+- 4.  Make Your Changes: Edit files in Visual Studio Code.
+
+- 5.  Commit Your Changes:
+
+- git add .
+- git commit -m "Describe your changes here"
 
 
-2.  Clone Your Fork: Use Git Bash to clone your fork:
+- 6.  Push Your Changes:
 
-git clone https://github.com/yourusername/your-forked-repository-name.git
-
-
-3.  Create a New Branch:
-
-git checkout -b your-branch-name
+- git push origin your-branch-name
 
 
-4.  Make Your Changes: Edit files in Visual Studio Code.
-
-5.  Commit Your Changes:
-
-
-git add .
-git commit -m "Describe your changes here"
-
-
-6.  Push Your Changes:
-
-git push origin your-branch-name
-
-
-7.  Submit a Pull Request: Go to your GitHub repository and submit a pull request from your branch to the original repository.
+- 7.  Submit a Pull Request: Go to your GitHub repository and submit a pull request from your branch to the original repository.
 
 
