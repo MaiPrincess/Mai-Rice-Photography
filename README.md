@@ -25,7 +25,7 @@ This project is a basic website designed as part of a tech class. The goal was t
    
 The website includes a home page with a working carousel and a live web cam of one of my favorite places to take pictures, my old stomping grounds... Monterey, California. The gallery has hoverable and clickable photos. The about section that has a count down timer that changes to the closest prime whale watching seasons in Monterey.  It also has 2 different live cameras, one of the bay and one of the sea otters from the Monterey Bay Aquarium. The contact button will take you down to a  clickable email link.  I hope you enjoy my photos, they are just a taste of what I have and what is my passion!
 
-##### Technologies Used
+### Technologies Used
 
 HTML: For structuring the content of the web pages.
 
@@ -36,7 +36,7 @@ JavaScript: For adding interactivity to the website.
 Additional: frameworks - Bootstrap , array looping.
 
 
-##### Installation
+### Installation
 Follow these steps to set up the project locally using Git Bash and Visual Studio Code:
 
 1. Clone the Repository:
@@ -64,7 +64,7 @@ this will open the current directory in VS Code.
 
 
 
-##### Usage
+### Usage
 
 ###### To view and interact with the website:
 
@@ -87,16 +87,16 @@ JavaScript: Update the interactive behavior in the .js files.
 All changes made in VS Code will be reflected when you refresh the web browser.
 
 
-##### File Structure
+### File Structure
 Here is an overview of the projects file structure:
 
-##### Mai-Rice-Photography/
+### Mai-Rice-Photography/
 
 1.  index.html                                        # Main HTML file
 2. gallery.html                                      # Gallery HTML file
 3. about.html                                        # About Me HTML file
 
-##### styles                                               # Directory for CSS files styles
+### styles                                               # Directory for CSS files styles
 - 1. Mai_Rice_Photography.css           # Main stylesheet
 - 2.   carousel.css                                # Carousel stylesheet
 - 3.   live_feed.css                            # Live Feed stylesheet
@@ -106,7 +106,7 @@ Here is an overview of the projects file structure:
 - 7.   about.css                    # About Me stylesheet
 - 8.   count_down.css            # Count Down Timer stylesheet
 
-##### scripts
+### scripts
 -  1. Javascript                                    # Carousel JavaScript file
 - 2.  button.js                                  # Back to top Button JavaScript file
 - 3.  gallery.js                              # Gallery array loop JavaScript file
@@ -114,12 +114,12 @@ Here is an overview of the projects file structure:
 - 5.  count_down.js                     # Count Down Timer JavaScript file
 - 6.  Monterey_cords.js              # Monterey Bay Aquarium Map Cords JavaScript file
 
-##### images/                                           # Directory for image files
+### images/                                           # Directory for image files
  Gallery Pictures folder holds all JPG         # Gallery Pictures Folder holds all image JPG files
 
 
 
-##### Contributing
+### Contributing
 If you’d like to contribute to this project, please follow these steps:
 
 - 1.  Fork the Repository: Create a copy of the repository under your own GitHub account.
